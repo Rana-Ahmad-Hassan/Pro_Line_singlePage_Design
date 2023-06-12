@@ -1,0 +1,45 @@
+.backimg {
+    background-image: url("img/backimg3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+   
+}
+.spacing {
+    word-spacing: 6px;
+}
+.space2{
+    word-spacing: 5px;
+}
+
+.backimg2{
+    background-image:linear-gradient(rgb(24, 22, 22), rgba(0, 0, 0, 0.445)),url("img/img-activities.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media (min-width:764px) and (max-width:1400px){
+    .about1{
+        width: 100%;
+    }
+    .about2{
+        width: 100%;
+    }
+   .activity1{
+    width: 100%;
+   }
+   .company{
+    width: 100%;
+    display: block ;
+
+   }
+  .company1{
+    width: 100%;
+  }
+ .company2{
+    width: 60%;
+    justify-content: center;
+ }
+}
+
